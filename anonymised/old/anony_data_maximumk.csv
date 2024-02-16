@@ -1,0 +1,641 @@
+age,education,marital-status,race,income,occupation
+20-39,Assoc,Married-spouse,Person,>50K,Tech-support
+20-39,Assoc,Married-spouse,Person,>50K,Farming-fishing
+20-39,Assoc,Married-spouse,Person,>50K,Transport-moving
+20-39,Assoc,Married-spouse,Person,>50K,Tech-support
+20-39,Assoc,Married-spouse,Person,>50K,Craft-repair
+20-39,Assoc,Never-Married,Person,>50K,Tech-support
+20-39,Assoc,Never-Married,Person,>50K,Exec-managerial
+20-39,Assoc,Never-Married,Person,>50K,Adm-clerical
+20-39,Assoc,Never-Married,Person,>50K,Prof-specialty
+20-39,Assoc,Never-Married,Person,>50K,Protective-serv
+20-39,Assoc,Seperated,Person,>50K,Craft-repair
+20-39,Assoc,Seperated,Person,>50K,Prof-specialty
+20-39,Assoc,Seperated,Person,>50K,Prof-specialty
+20-39,Assoc,Seperated,Person,>50K,Sales
+20-39,Assoc,Seperated,Person,>50K,Craft-repair
+20-39,College,Married-spouse,Person,>50K,Sales
+20-39,College,Married-spouse,Person,>50K,Prof-specialty
+20-39,College,Married-spouse,Person,>50K,Tech-support
+20-39,College,Married-spouse,Person,>50K,Exec-managerial
+20-39,College,Married-spouse,Person,>50K,Prof-specialty
+20-39,College,Never-Married,Person,>50K,Adm-clerical
+20-39,College,Never-Married,Person,>50K,Sales
+20-39,College,Never-Married,Person,>50K,Exec-managerial
+20-39,College,Never-Married,Person,>50K,Prof-specialty
+20-39,College,Never-Married,Person,>50K,Exec-managerial
+20-39,College,Seperated,Person,>50K,Protective-serv
+20-39,College,Seperated,Person,>50K,Adm-clerical
+20-39,College,Seperated,Person,>50K,Other-service
+20-39,College,Seperated,Person,>50K,Exec-managerial
+20-39,College,Seperated,Person,>50K,Exec-managerial
+20-39,Higher Education,Married-spouse,Person,>50K,Tech-support
+20-39,Higher Education,Married-spouse,Person,>50K,Prof-specialty
+20-39,Higher Education,Married-spouse,Person,>50K,Sales
+20-39,Higher Education,Married-spouse,Person,>50K,Machine-op-inspct
+20-39,Higher Education,Married-spouse,Person,>50K,Machine-op-inspct
+20-39,Higher Education,Never-Married,Person,>50K,Exec-managerial
+20-39,Higher Education,Never-Married,Person,>50K,Prof-specialty
+20-39,Higher Education,Never-Married,Person,>50K,Sales
+20-39,Higher Education,Never-Married,Person,>50K,Prof-specialty
+20-39,Higher Education,Never-Married,Person,>50K,Prof-specialty
+20-39,Higher Education,Seperated,Person,>50K,Craft-repair
+20-39,Higher Education,Seperated,Person,>50K,Prof-specialty
+20-39,Higher Education,Seperated,Person,>50K,Craft-repair
+20-39,Higher Education,Seperated,Person,>50K,Exec-managerial
+20-39,Higher Education,Seperated,Person,>50K,Exec-managerial
+20-39,PreSchool,Married-spouse,Person,>50K,Craft-repair
+20-39,PreSchool,Married-spouse,Person,>50K,Handlers-cleaners
+20-39,PreSchool,Married-spouse,Person,>50K,Farming-fishing
+20-39,PreSchool,Married-spouse,Person,>50K,Machine-op-inspct
+20-39,PreSchool,Married-spouse,Person,>50K,Exec-managerial
+20-39,PreSchool,Never-Married,Person,>50K,Handlers-cleaners
+20-39,PreSchool,Never-Married,Person,>50K,Craft-repair
+20-39,PreSchool,Never-Married,Person,>50K,Craft-repair
+20-39,PreSchool,Never-Married,Person,>50K,Prof-specialty
+20-39,PreSchool,Never-Married,Person,>50K,Other-service
+40-59,Assoc,Married-spouse,Person,>50K,Prof-specialty
+40-59,Assoc,Married-spouse,Person,>50K,Prof-specialty
+40-59,Assoc,Married-spouse,Person,>50K,Craft-repair
+40-59,Assoc,Married-spouse,Person,>50K,Exec-managerial
+40-59,Assoc,Married-spouse,Person,>50K,Exec-managerial
+40-59,Assoc,Never-Married,Person,>50K,Sales
+40-59,Assoc,Never-Married,Person,>50K,Exec-managerial
+40-59,Assoc,Never-Married,Person,>50K,Prof-specialty
+40-59,Assoc,Never-Married,Person,>50K,Prof-specialty
+40-59,Assoc,Never-Married,Person,>50K,Tech-support
+40-59,Assoc,Seperated,Person,>50K,Exec-managerial
+40-59,Assoc,Seperated,Person,>50K,Exec-managerial
+40-59,Assoc,Seperated,Person,>50K,Sales
+40-59,Assoc,Seperated,Person,>50K,Adm-clerical
+40-59,Assoc,Seperated,Person,>50K,Sales
+40-59,College,Married-spouse,Person,>50K,Exec-managerial
+40-59,College,Married-spouse,Person,>50K,Craft-repair
+40-59,College,Married-spouse,Person,>50K,Exec-managerial
+40-59,College,Married-spouse,Person,>50K,Craft-repair
+40-59,College,Married-spouse,Person,>50K,Exec-managerial
+40-59,College,Never-Married,Person,>50K,Prof-specialty
+40-59,College,Never-Married,Person,>50K,Adm-clerical
+40-59,College,Never-Married,Person,>50K,Prof-specialty
+40-59,College,Never-Married,Person,>50K,Prof-specialty
+40-59,College,Never-Married,Person,>50K,Adm-clerical
+40-59,College,Seperated,Person,>50K,Sales
+40-59,College,Seperated,Person,>50K,Sales
+40-59,College,Seperated,Person,>50K,Transport-moving
+40-59,College,Seperated,Person,>50K,Exec-managerial
+40-59,College,Seperated,Person,>50K,Prof-specialty
+40-59,Higher Education,Married-spouse,Person,>50K,Prof-specialty
+40-59,Higher Education,Married-spouse,Person,>50K,Prof-specialty
+40-59,Higher Education,Married-spouse,Person,>50K,Sales
+40-59,Higher Education,Married-spouse,Person,>50K,Machine-op-inspct
+40-59,Higher Education,Married-spouse,Person,>50K,Handlers-cleaners
+40-59,Higher Education,Never-Married,Person,>50K,Prof-specialty
+40-59,Higher Education,Never-Married,Person,>50K,Exec-managerial
+40-59,Higher Education,Never-Married,Person,>50K,Prof-specialty
+40-59,Higher Education,Never-Married,Person,>50K,Prof-specialty
+40-59,Higher Education,Never-Married,Person,>50K,Exec-managerial
+40-59,Higher Education,Seperated,Person,>50K,Protective-serv
+40-59,Higher Education,Seperated,Person,>50K,Tech-support
+40-59,Higher Education,Seperated,Person,>50K,Craft-repair
+40-59,Higher Education,Seperated,Person,>50K,Exec-managerial
+40-59,Higher Education,Seperated,Person,>50K,Prof-specialty
+40-59,PreSchool,Married-spouse,Person,>50K,Transport-moving
+40-59,PreSchool,Married-spouse,Person,>50K,Machine-op-inspct
+40-59,PreSchool,Married-spouse,Person,>50K,Other-service
+40-59,PreSchool,Married-spouse,Person,>50K,Sales
+40-59,PreSchool,Married-spouse,Person,>50K,Machine-op-inspct
+40-59,PreSchool,Seperated,Person,>50K,Machine-op-inspct
+40-59,PreSchool,Seperated,Person,>50K,Craft-repair
+40-59,PreSchool,Seperated,Person,>50K,Transport-moving
+40-59,PreSchool,Seperated,Person,>50K,Prof-specialty
+40-59,PreSchool,Seperated,Person,>50K,Handlers-cleaners
+60-79,Assoc,Married-spouse,Person,>50K,Tech-support
+60-79,Assoc,Married-spouse,Person,>50K,Tech-support
+60-79,Assoc,Married-spouse,Person,>50K,Adm-clerical
+60-79,Assoc,Married-spouse,Person,>50K,Machine-op-inspct
+60-79,Assoc,Married-spouse,Person,>50K,Exec-managerial
+60-79,Assoc,Seperated,Person,>50K,Prof-specialty
+60-79,Assoc,Seperated,Person,>50K,Prof-specialty
+60-79,Assoc,Seperated,Person,>50K,Exec-managerial
+60-79,Assoc,Seperated,Person,>50K,Exec-managerial
+60-79,Assoc,Seperated,Person,>50K,Prof-specialty
+60-79,College,Married-spouse,Person,>50K,?
+60-79,College,Married-spouse,Person,>50K,Prof-specialty
+60-79,College,Married-spouse,Person,>50K,Transport-moving
+60-79,College,Married-spouse,Person,>50K,Exec-managerial
+60-79,College,Married-spouse,Person,>50K,?
+60-79,College,Never-Married,Person,>50K,?
+60-79,College,Never-Married,Person,>50K,Prof-specialty
+60-79,College,Never-Married,Person,>50K,?
+60-79,College,Never-Married,Person,>50K,Prof-specialty
+60-79,College,Never-Married,Person,>50K,Tech-support
+60-79,College,Seperated,Person,>50K,Prof-specialty
+60-79,College,Seperated,Person,>50K,Sales
+60-79,College,Seperated,Person,>50K,Other-service
+60-79,College,Seperated,Person,>50K,Exec-managerial
+60-79,College,Seperated,Person,>50K,Adm-clerical
+60-79,Higher Education,Married-spouse,Person,>50K,Prof-specialty
+60-79,Higher Education,Married-spouse,Person,>50K,Exec-managerial
+60-79,Higher Education,Married-spouse,Person,>50K,Prof-specialty
+60-79,Higher Education,Married-spouse,Person,>50K,?
+60-79,Higher Education,Married-spouse,Person,>50K,Prof-specialty
+60-79,Higher Education,Never-Married,Person,>50K,Sales
+60-79,Higher Education,Never-Married,Person,>50K,Exec-managerial
+60-79,Higher Education,Never-Married,Person,>50K,Prof-specialty
+60-79,Higher Education,Never-Married,Person,>50K,Adm-clerical
+60-79,Higher Education,Never-Married,Person,>50K,Prof-specialty
+60-79,Higher Education,Seperated,Person,>50K,Exec-managerial
+60-79,Higher Education,Seperated,Person,>50K,?
+60-79,Higher Education,Seperated,Person,>50K,Sales
+60-79,Higher Education,Seperated,Person,>50K,Prof-specialty
+60-79,Higher Education,Seperated,Person,>50K,Exec-managerial
+60-79,PreSchool,Married-spouse,Person,>50K,Transport-moving
+60-79,PreSchool,Married-spouse,Person,>50K,Farming-fishing
+60-79,PreSchool,Married-spouse,Person,>50K,Handlers-cleaners
+60-79,PreSchool,Married-spouse,Person,>50K,Exec-managerial
+60-79,PreSchool,Married-spouse,Person,>50K,Transport-moving
+60-79,PreSchool,Seperated,Person,>50K,Sales
+60-79,PreSchool,Seperated,Person,>50K,Other-service
+60-79,PreSchool,Seperated,Person,>50K,Handlers-cleaners
+60-79,PreSchool,Seperated,Person,>50K,Exec-managerial
+60-79,PreSchool,Seperated,Person,>50K,Exec-managerial
+>=80,College,Married-spouse,Person,>50K,Prof-specialty
+>=80,College,Married-spouse,Person,>50K,Farming-fishing
+>=80,College,Married-spouse,Person,>50K,Adm-clerical
+>=80,College,Married-spouse,Person,>50K,Sales
+>=80,College,Married-spouse,Person,>50K,Exec-managerial
+>=80,Higher Education,Married-spouse,Person,>50K,Exec-managerial
+>=80,Higher Education,Married-spouse,Person,>50K,Prof-specialty
+>=80,Higher Education,Married-spouse,Person,>50K,Exec-managerial
+>=80,Higher Education,Married-spouse,Person,>50K,Exec-managerial
+>=80,Higher Education,Married-spouse,Person,>50K,?
+0-19,College,Never-Married,Person,<=50K,Adm-clerical
+0-19,College,Never-Married,Person,<=50K,?
+0-19,College,Never-Married,Person,<=50K,Transport-moving
+0-19,College,Never-Married,Person,<=50K,?
+0-19,College,Never-Married,Person,<=50K,
+0-19,College,Never-Married,Person,<=50K,Sales
+0-19,College,Never-Married,Person,<=50K,Sales
+0-19,College,Never-Married,Person,<=50K,Sales
+0-19,College,Never-Married,Person,<=50K,Other-service
+0-19,College,Never-Married,Person,<=50K,?
+0-19,Higher Education,Married-spouse,Person,<=50K,
+0-19,Higher Education,Married-spouse,Person,<=50K,Other-service
+0-19,Higher Education,Married-spouse,Person,<=50K,Adm-clerical
+0-19,Higher Education,Married-spouse,Person,<=50K,Other-service
+0-19,Higher Education,Married-spouse,Person,<=50K,Handlers-cleaners
+0-19,Higher Education,Married-spouse,Person,<=50K,?
+0-19,Higher Education,Married-spouse,Person,<=50K,Craft-repair
+0-19,Higher Education,Married-spouse,Person,<=50K,Sales
+0-19,Higher Education,Married-spouse,Person,<=50K,Other-service
+0-19,Higher Education,Married-spouse,Person,<=50K,Machine-op-inspct
+0-19,Higher Education,Never-Married,Person,<=50K,Handlers-cleaners
+0-19,Higher Education,Never-Married,Person,<=50K,?
+0-19,Higher Education,Never-Married,Person,<=50K,Sales
+0-19,Higher Education,Never-Married,Person,<=50K,Other-service
+0-19,Higher Education,Never-Married,Person,<=50K,Sales
+0-19,Higher Education,Never-Married,Person,<=50K,Adm-clerical
+0-19,Higher Education,Never-Married,Person,<=50K,Farming-fishing
+0-19,Higher Education,Never-Married,Person,<=50K,Handlers-cleaners
+0-19,Higher Education,Never-Married,Person,<=50K,
+0-19,Higher Education,Never-Married,Person,<=50K,Sales
+0-19,PreSchool,Married-spouse,Person,<=50K,Craft-repair
+0-19,PreSchool,Married-spouse,Person,<=50K,Craft-repair
+0-19,PreSchool,Married-spouse,Person,<=50K,Sales
+0-19,PreSchool,Married-spouse,Person,<=50K,
+0-19,PreSchool,Married-spouse,Person,<=50K,Craft-repair
+0-19,PreSchool,Married-spouse,Person,<=50K,Adm-clerical
+0-19,PreSchool,Married-spouse,Person,<=50K,Other-service
+0-19,PreSchool,Married-spouse,Person,<=50K,Transport-moving
+0-19,PreSchool,Married-spouse,Person,<=50K,Other-service
+0-19,PreSchool,Married-spouse,Person,<=50K,Sales
+0-19,PreSchool,Never-Married,Person,<=50K,Other-service
+0-19,PreSchool,Never-Married,Person,<=50K,Other-service
+0-19,PreSchool,Never-Married,Person,<=50K,Other-service
+0-19,PreSchool,Never-Married,Person,<=50K,Machine-op-inspct
+0-19,PreSchool,Never-Married,Person,<=50K,Sales
+0-19,PreSchool,Never-Married,Person,<=50K,Other-service
+0-19,PreSchool,Never-Married,Person,<=50K,?
+0-19,PreSchool,Never-Married,Person,<=50K,Sales
+0-19,PreSchool,Never-Married,Person,<=50K,Sales
+0-19,PreSchool,Never-Married,Person,<=50K,Handlers-cleaners
+20-39,Assoc,Married-spouse,Person,<=50K,Craft-repair
+20-39,Assoc,Married-spouse,Person,<=50K,?
+20-39,Assoc,Married-spouse,Person,<=50K,Craft-repair
+20-39,Assoc,Married-spouse,Person,<=50K,Sales
+20-39,Assoc,Married-spouse,Person,<=50K,Adm-clerical
+20-39,Assoc,Married-spouse,Person,<=50K,Craft-repair
+20-39,Assoc,Married-spouse,Person,<=50K,Transport-moving
+20-39,Assoc,Married-spouse,Person,<=50K,Exec-managerial
+20-39,Assoc,Married-spouse,Person,<=50K,Exec-managerial
+20-39,Assoc,Married-spouse,Person,<=50K,Sales
+20-39,Assoc,Never-Married,Person,<=50K,Adm-clerical
+20-39,Assoc,Never-Married,Person,<=50K,Transport-moving
+20-39,Assoc,Never-Married,Person,<=50K,Sales
+20-39,Assoc,Never-Married,Person,<=50K,?
+20-39,Assoc,Never-Married,Person,<=50K,Other-service
+20-39,Assoc,Never-Married,Person,<=50K,Handlers-cleaners
+20-39,Assoc,Never-Married,Person,<=50K,Prof-specialty
+20-39,Assoc,Never-Married,Person,<=50K,Protective-serv
+20-39,Assoc,Never-Married,Person,<=50K,Other-service
+20-39,Assoc,Never-Married,Person,<=50K,Exec-managerial
+20-39,Assoc,Seperated,Person,<=50K,Other-service
+20-39,Assoc,Seperated,Person,<=50K,Tech-support
+20-39,Assoc,Seperated,Person,<=50K,Prof-specialty
+20-39,Assoc,Seperated,Person,<=50K,Protective-serv
+20-39,Assoc,Seperated,Person,<=50K,Sales
+20-39,Assoc,Seperated,Person,<=50K,Adm-clerical
+20-39,Assoc,Seperated,Person,<=50K,Craft-repair
+20-39,Assoc,Seperated,Person,<=50K,Adm-clerical
+20-39,Assoc,Seperated,Person,<=50K,Exec-managerial
+20-39,Assoc,Seperated,Person,<=50K,Sales
+20-39,College,Married-spouse,Person,<=50K,Machine-op-inspct
+20-39,College,Married-spouse,Person,<=50K,Protective-serv
+20-39,College,Married-spouse,Person,<=50K,Exec-managerial
+20-39,College,Married-spouse,Person,<=50K,Craft-repair
+20-39,College,Married-spouse,Person,<=50K,Transport-moving
+20-39,College,Married-spouse,Person,<=50K,?
+20-39,College,Married-spouse,Person,<=50K,Sales
+20-39,College,Married-spouse,Person,<=50K,Craft-repair
+20-39,College,Married-spouse,Person,<=50K,Handlers-cleaners
+20-39,College,Married-spouse,Person,<=50K,Prof-specialty
+20-39,College,Never-Married,Person,<=50K,Exec-managerial
+20-39,College,Never-Married,Person,<=50K,Prof-specialty
+20-39,College,Never-Married,Person,<=50K,Adm-clerical
+20-39,College,Never-Married,Person,<=50K,Craft-repair
+20-39,College,Never-Married,Person,<=50K,?
+20-39,College,Never-Married,Person,<=50K,Adm-clerical
+20-39,College,Never-Married,Person,<=50K,Prof-specialty
+20-39,College,Never-Married,Person,<=50K,Tech-support
+20-39,College,Never-Married,Person,<=50K,Other-service
+20-39,College,Never-Married,Person,<=50K,Sales
+20-39,College,Seperated,Person,<=50K,Exec-managerial
+20-39,College,Seperated,Person,<=50K,Prof-specialty
+20-39,College,Seperated,Person,<=50K,Sales
+20-39,College,Seperated,Person,<=50K,Craft-repair
+20-39,College,Seperated,Person,<=50K,?
+20-39,College,Seperated,Person,<=50K,Other-service
+20-39,College,Seperated,Person,<=50K,Adm-clerical
+20-39,College,Seperated,Person,<=50K,Craft-repair
+20-39,College,Seperated,Person,<=50K,?
+20-39,College,Seperated,Person,<=50K,Exec-managerial
+20-39,Higher Education,Married-spouse,Person,<=50K,?
+20-39,Higher Education,Married-spouse,Person,<=50K,Adm-clerical
+20-39,Higher Education,Married-spouse,Person,<=50K,Craft-repair
+20-39,Higher Education,Married-spouse,Person,<=50K,Other-service
+20-39,Higher Education,Married-spouse,Person,<=50K,Transport-moving
+20-39,Higher Education,Married-spouse,Person,<=50K,Other-service
+20-39,Higher Education,Married-spouse,Person,<=50K,Craft-repair
+20-39,Higher Education,Married-spouse,Person,<=50K,Adm-clerical
+20-39,Higher Education,Married-spouse,Person,<=50K,Adm-clerical
+20-39,Higher Education,Married-spouse,Person,<=50K,Exec-managerial
+20-39,Higher Education,Never-Married,Person,<=50K,Adm-clerical
+20-39,Higher Education,Never-Married,Person,<=50K,Transport-moving
+20-39,Higher Education,Never-Married,Person,<=50K,Machine-op-inspct
+20-39,Higher Education,Never-Married,Person,<=50K,Other-service
+20-39,Higher Education,Never-Married,Person,<=50K,Other-service
+20-39,Higher Education,Never-Married,Person,<=50K,Prof-specialty
+20-39,Higher Education,Never-Married,Person,<=50K,Adm-clerical
+20-39,Higher Education,Never-Married,Person,<=50K,Craft-repair
+20-39,Higher Education,Never-Married,Person,<=50K,Other-service
+20-39,Higher Education,Never-Married,Person,<=50K,Craft-repair
+20-39,Higher Education,Seperated,Person,<=50K,Protective-serv
+20-39,Higher Education,Seperated,Person,<=50K,Adm-clerical
+20-39,Higher Education,Seperated,Person,<=50K,Adm-clerical
+20-39,Higher Education,Seperated,Person,<=50K,Other-service
+20-39,Higher Education,Seperated,Person,<=50K,Transport-moving
+20-39,Higher Education,Seperated,Person,<=50K,Craft-repair
+20-39,Higher Education,Seperated,Person,<=50K,Other-service
+20-39,Higher Education,Seperated,Person,<=50K,Adm-clerical
+20-39,Higher Education,Seperated,Person,<=50K,Other-service
+20-39,Higher Education,Seperated,Person,<=50K,Transport-moving
+20-39,PreSchool,Married-spouse,Person,<=50K,Craft-repair
+20-39,PreSchool,Married-spouse,Person,<=50K,Craft-repair
+20-39,PreSchool,Married-spouse,Person,<=50K,Machine-op-inspct
+20-39,PreSchool,Married-spouse,Person,<=50K,Machine-op-inspct
+20-39,PreSchool,Married-spouse,Person,<=50K,Other-service
+20-39,PreSchool,Married-spouse,Person,<=50K,Craft-repair
+20-39,PreSchool,Married-spouse,Person,<=50K,Craft-repair
+20-39,PreSchool,Married-spouse,Person,<=50K,Transport-moving
+20-39,PreSchool,Married-spouse,Person,<=50K,Machine-op-inspct
+20-39,PreSchool,Married-spouse,Person,<=50K,Other-service
+20-39,PreSchool,Never-Married,Person,<=50K,Transport-moving
+20-39,PreSchool,Never-Married,Person,<=50K,Other-service
+20-39,PreSchool,Never-Married,Person,<=50K,
+20-39,PreSchool,Never-Married,Person,<=50K,Machine-op-inspct
+20-39,PreSchool,Never-Married,Person,<=50K,Transport-moving
+20-39,PreSchool,Never-Married,Person,<=50K,Other-service
+20-39,PreSchool,Never-Married,Person,<=50K,
+20-39,PreSchool,Never-Married,Person,<=50K,Craft-repair
+20-39,PreSchool,Never-Married,Person,<=50K,Machine-op-inspct
+20-39,PreSchool,Never-Married,Person,<=50K,Adm-clerical
+20-39,PreSchool,Seperated,Person,<=50K,Craft-repair
+20-39,PreSchool,Seperated,Person,<=50K,Other-service
+20-39,PreSchool,Seperated,Person,<=50K,Other-service
+20-39,PreSchool,Seperated,Person,<=50K,Farming-fishing
+20-39,PreSchool,Seperated,Person,<=50K,?
+20-39,PreSchool,Seperated,Person,<=50K,Machine-op-inspct
+20-39,PreSchool,Seperated,Person,<=50K,Other-service
+20-39,PreSchool,Seperated,Person,<=50K,Adm-clerical
+20-39,PreSchool,Seperated,Person,<=50K,Craft-repair
+20-39,PreSchool,Seperated,Person,<=50K,Other-service
+40-59,Assoc,Married-spouse,Person,<=50K,Prof-specialty
+40-59,Assoc,Married-spouse,Person,<=50K,Sales
+40-59,Assoc,Married-spouse,Person,<=50K,Exec-managerial
+40-59,Assoc,Married-spouse,Person,<=50K,Craft-repair
+40-59,Assoc,Married-spouse,Person,<=50K,Exec-managerial
+40-59,Assoc,Married-spouse,Person,<=50K,Sales
+40-59,Assoc,Married-spouse,Person,<=50K,Craft-repair
+40-59,Assoc,Married-spouse,Person,<=50K,Exec-managerial
+40-59,Assoc,Married-spouse,Person,<=50K,Handlers-cleaners
+40-59,Assoc,Married-spouse,Person,<=50K,Exec-managerial
+40-59,Assoc,Never-Married,Person,<=50K,Prof-specialty
+40-59,Assoc,Never-Married,Person,<=50K,Craft-repair
+40-59,Assoc,Never-Married,Person,<=50K,Adm-clerical
+40-59,Assoc,Never-Married,Person,<=50K,Adm-clerical
+40-59,Assoc,Never-Married,Person,<=50K,Exec-managerial
+40-59,Assoc,Never-Married,Person,<=50K,Sales
+40-59,Assoc,Never-Married,Person,<=50K,Craft-repair
+40-59,Assoc,Never-Married,Person,<=50K,Adm-clerical
+40-59,Assoc,Never-Married,Person,<=50K,Exec-managerial
+40-59,Assoc,Never-Married,Person,<=50K,Craft-repair
+40-59,Assoc,Seperated,Person,<=50K,Exec-managerial
+40-59,Assoc,Seperated,Person,<=50K,Tech-support
+40-59,Assoc,Seperated,Person,<=50K,Prof-specialty
+40-59,Assoc,Seperated,Person,<=50K,
+40-59,Assoc,Seperated,Person,<=50K,
+40-59,Assoc,Seperated,Person,<=50K,Transport-moving
+40-59,Assoc,Seperated,Person,<=50K,Adm-clerical
+40-59,Assoc,Seperated,Person,<=50K,Adm-clerical
+40-59,Assoc,Seperated,Person,<=50K,?
+40-59,Assoc,Seperated,Person,<=50K,Exec-managerial
+40-59,College,Married-spouse,Person,<=50K,Prof-specialty
+40-59,College,Married-spouse,Person,<=50K,Prof-specialty
+40-59,College,Married-spouse,Person,<=50K,Farming-fishing
+40-59,College,Married-spouse,Person,<=50K,Craft-repair
+40-59,College,Married-spouse,Person,<=50K,Prof-specialty
+40-59,College,Married-spouse,Person,<=50K,Sales
+40-59,College,Married-spouse,Person,<=50K,Adm-clerical
+40-59,College,Married-spouse,Person,<=50K,Sales
+40-59,College,Married-spouse,Person,<=50K,Protective-serv
+40-59,College,Married-spouse,Person,<=50K,Craft-repair
+40-59,College,Never-Married,Person,<=50K,
+40-59,College,Never-Married,Person,<=50K,Sales
+40-59,College,Never-Married,Person,<=50K,Tech-support
+40-59,College,Never-Married,Person,<=50K,Exec-managerial
+40-59,College,Never-Married,Person,<=50K,Adm-clerical
+40-59,College,Never-Married,Person,<=50K,Exec-managerial
+40-59,College,Never-Married,Person,<=50K,Prof-specialty
+40-59,College,Never-Married,Person,<=50K,Sales
+40-59,College,Never-Married,Person,<=50K,Other-service
+40-59,College,Never-Married,Person,<=50K,Exec-managerial
+40-59,College,Seperated,Person,<=50K,Adm-clerical
+40-59,College,Seperated,Person,<=50K,Exec-managerial
+40-59,College,Seperated,Person,<=50K,Adm-clerical
+40-59,College,Seperated,Person,<=50K,Machine-op-inspct
+40-59,College,Seperated,Person,<=50K,Sales
+40-59,College,Seperated,Person,<=50K,Handlers-cleaners
+40-59,College,Seperated,Person,<=50K,Adm-clerical
+40-59,College,Seperated,Person,<=50K,Sales
+40-59,College,Seperated,Person,<=50K,Sales
+40-59,College,Seperated,Person,<=50K,Other-service
+40-59,Higher Education,Married-spouse,Person,<=50K,Craft-repair
+40-59,Higher Education,Married-spouse,Person,<=50K,Sales
+40-59,Higher Education,Married-spouse,Person,<=50K,?
+40-59,Higher Education,Married-spouse,Person,<=50K,Other-service
+40-59,Higher Education,Married-spouse,Person,<=50K,Craft-repair
+40-59,Higher Education,Married-spouse,Person,<=50K,Craft-repair
+40-59,Higher Education,Married-spouse,Person,<=50K,Craft-repair
+40-59,Higher Education,Married-spouse,Person,<=50K,Sales
+40-59,Higher Education,Married-spouse,Person,<=50K,Sales
+40-59,Higher Education,Married-spouse,Person,<=50K,Prof-specialty
+40-59,Higher Education,Never-Married,Person,<=50K,Other-service
+40-59,Higher Education,Never-Married,Person,<=50K,Other-service
+40-59,Higher Education,Never-Married,Person,<=50K,Craft-repair
+40-59,Higher Education,Never-Married,Person,<=50K,Exec-managerial
+40-59,Higher Education,Never-Married,Person,<=50K,Priv-house-serv
+40-59,Higher Education,Never-Married,Person,<=50K,Sales
+40-59,Higher Education,Never-Married,Person,<=50K,Prof-specialty
+40-59,Higher Education,Never-Married,Person,<=50K,Adm-clerical
+40-59,Higher Education,Never-Married,Person,<=50K,Adm-clerical
+40-59,Higher Education,Never-Married,Person,<=50K,?
+40-59,Higher Education,Seperated,Person,<=50K,Craft-repair
+40-59,Higher Education,Seperated,Person,<=50K,Prof-specialty
+40-59,Higher Education,Seperated,Person,<=50K,Other-service
+40-59,Higher Education,Seperated,Person,<=50K,Exec-managerial
+40-59,Higher Education,Seperated,Person,<=50K,Craft-repair
+40-59,Higher Education,Seperated,Person,<=50K,Sales
+40-59,Higher Education,Seperated,Person,<=50K,Sales
+40-59,Higher Education,Seperated,Person,<=50K,Machine-op-inspct
+40-59,Higher Education,Seperated,Person,<=50K,Farming-fishing
+40-59,Higher Education,Seperated,Person,<=50K,Prof-specialty
+40-59,PreSchool,Married-spouse,Person,<=50K,Adm-clerical
+40-59,PreSchool,Married-spouse,Person,<=50K,Craft-repair
+40-59,PreSchool,Married-spouse,Person,<=50K,Craft-repair
+40-59,PreSchool,Married-spouse,Person,<=50K,Farming-fishing
+40-59,PreSchool,Married-spouse,Person,<=50K,Craft-repair
+40-59,PreSchool,Married-spouse,Person,<=50K,Exec-managerial
+40-59,PreSchool,Married-spouse,Person,<=50K,Craft-repair
+40-59,PreSchool,Married-spouse,Person,<=50K,Sales
+40-59,PreSchool,Married-spouse,Person,<=50K,Transport-moving
+40-59,PreSchool,Married-spouse,Person,<=50K,Sales
+40-59,PreSchool,Never-Married,Person,<=50K,Machine-op-inspct
+40-59,PreSchool,Never-Married,Person,<=50K,Prof-specialty
+40-59,PreSchool,Never-Married,Person,<=50K,Other-service
+40-59,PreSchool,Never-Married,Person,<=50K,Other-service
+40-59,PreSchool,Never-Married,Person,<=50K,Farming-fishing
+40-59,PreSchool,Never-Married,Person,<=50K,Machine-op-inspct
+40-59,PreSchool,Never-Married,Person,<=50K,Protective-serv
+40-59,PreSchool,Never-Married,Person,<=50K,Machine-op-inspct
+40-59,PreSchool,Never-Married,Person,<=50K,Other-service
+40-59,PreSchool,Never-Married,Person,<=50K,Other-service
+40-59,PreSchool,Seperated,Person,<=50K,Transport-moving
+40-59,PreSchool,Seperated,Person,<=50K,Adm-clerical
+40-59,PreSchool,Seperated,Person,<=50K,Machine-op-inspct
+40-59,PreSchool,Seperated,Person,<=50K,Other-service
+40-59,PreSchool,Seperated,Person,<=50K,?
+40-59,PreSchool,Seperated,Person,<=50K,Handlers-cleaners
+40-59,PreSchool,Seperated,Person,<=50K,?
+40-59,PreSchool,Seperated,Person,<=50K,Handlers-cleaners
+40-59,PreSchool,Seperated,Person,<=50K,Handlers-cleaners
+40-59,PreSchool,Seperated,Person,<=50K,Machine-op-inspct
+60-79,Assoc,Married-spouse,Person,<=50K,Exec-managerial
+60-79,Assoc,Married-spouse,Person,<=50K,Adm-clerical
+60-79,Assoc,Married-spouse,Person,<=50K,Other-service
+60-79,Assoc,Married-spouse,Person,<=50K,Other-service
+60-79,Assoc,Married-spouse,Person,<=50K,Other-service
+60-79,Assoc,Married-spouse,Person,<=50K,Exec-managerial
+60-79,Assoc,Married-spouse,Person,<=50K,Exec-managerial
+60-79,Assoc,Married-spouse,Person,<=50K,Exec-managerial
+60-79,Assoc,Married-spouse,Person,<=50K,Craft-repair
+60-79,Assoc,Married-spouse,Person,<=50K,Craft-repair
+60-79,Assoc,Seperated,Person,<=50K,Priv-house-serv
+60-79,Assoc,Seperated,Person,<=50K,Tech-support
+60-79,Assoc,Seperated,Person,<=50K,Machine-op-inspct
+60-79,Assoc,Seperated,Person,<=50K,Prof-specialty
+60-79,Assoc,Seperated,Person,<=50K,
+60-79,Assoc,Seperated,Person,<=50K,Adm-clerical
+60-79,Assoc,Seperated,Person,<=50K,Sales
+60-79,Assoc,Seperated,Person,<=50K,Adm-clerical
+60-79,Assoc,Seperated,Person,<=50K,Exec-managerial
+60-79,Assoc,Seperated,Person,<=50K,Prof-specialty
+60-79,College,Married-spouse,Person,<=50K,?
+60-79,College,Married-spouse,Person,<=50K,Exec-managerial
+60-79,College,Married-spouse,Person,<=50K,?
+60-79,College,Married-spouse,Person,<=50K,Craft-repair
+60-79,College,Married-spouse,Person,<=50K,Prof-specialty
+60-79,College,Married-spouse,Person,<=50K,Handlers-cleaners
+60-79,College,Married-spouse,Person,<=50K,Exec-managerial
+60-79,College,Married-spouse,Person,<=50K,?
+60-79,College,Married-spouse,Person,<=50K,
+60-79,College,Married-spouse,Person,<=50K,Prof-specialty
+60-79,College,Never-Married,Person,<=50K,Exec-managerial
+60-79,College,Never-Married,Person,<=50K,Sales
+60-79,College,Never-Married,Person,<=50K,Prof-specialty
+60-79,College,Never-Married,Person,<=50K,Transport-moving
+60-79,College,Never-Married,Person,<=50K,Exec-managerial
+60-79,College,Never-Married,Person,<=50K,
+60-79,College,Never-Married,Person,<=50K,Prof-specialty
+60-79,College,Never-Married,Person,<=50K,Farming-fishing
+60-79,College,Never-Married,Person,<=50K,Prof-specialty
+60-79,College,Never-Married,Person,<=50K,Adm-clerical
+60-79,College,Seperated,Person,<=50K,?
+60-79,College,Seperated,Person,<=50K,Adm-clerical
+60-79,College,Seperated,Person,<=50K,Adm-clerical
+60-79,College,Seperated,Person,<=50K,Adm-clerical
+60-79,College,Seperated,Person,<=50K,Adm-clerical
+60-79,College,Seperated,Person,<=50K,Sales
+60-79,College,Seperated,Person,<=50K,Other-service
+60-79,College,Seperated,Person,<=50K,?
+60-79,College,Seperated,Person,<=50K,Other-service
+60-79,College,Seperated,Person,<=50K,
+60-79,Higher Education,Married-spouse,Person,<=50K,Prof-specialty
+60-79,Higher Education,Married-spouse,Person,<=50K,Farming-fishing
+60-79,Higher Education,Married-spouse,Person,<=50K,Protective-serv
+60-79,Higher Education,Married-spouse,Person,<=50K,Sales
+60-79,Higher Education,Married-spouse,Person,<=50K,?
+60-79,Higher Education,Married-spouse,Person,<=50K,Farming-fishing
+60-79,Higher Education,Married-spouse,Person,<=50K,Farming-fishing
+60-79,Higher Education,Married-spouse,Person,<=50K,Farming-fishing
+60-79,Higher Education,Married-spouse,Person,<=50K,Sales
+60-79,Higher Education,Married-spouse,Person,<=50K,Sales
+60-79,Higher Education,Never-Married,Person,<=50K,Other-service
+60-79,Higher Education,Never-Married,Person,<=50K,Prof-specialty
+60-79,Higher Education,Never-Married,Person,<=50K,Sales
+60-79,Higher Education,Never-Married,Person,<=50K,Tech-support
+60-79,Higher Education,Never-Married,Person,<=50K,Prof-specialty
+60-79,Higher Education,Never-Married,Person,<=50K,?
+60-79,Higher Education,Never-Married,Person,<=50K,Adm-clerical
+60-79,Higher Education,Never-Married,Person,<=50K,Adm-clerical
+60-79,Higher Education,Never-Married,Person,<=50K,Farming-fishing
+60-79,Higher Education,Never-Married,Person,<=50K,Sales
+60-79,Higher Education,Seperated,Person,<=50K,Adm-clerical
+60-79,Higher Education,Seperated,Person,<=50K,Craft-repair
+60-79,Higher Education,Seperated,Person,<=50K,Sales
+60-79,Higher Education,Seperated,Person,<=50K,Adm-clerical
+60-79,Higher Education,Seperated,Person,<=50K,Other-service
+60-79,Higher Education,Seperated,Person,<=50K,
+60-79,Higher Education,Seperated,Person,<=50K,Sales
+60-79,Higher Education,Seperated,Person,<=50K,Adm-clerical
+60-79,Higher Education,Seperated,Person,<=50K,Adm-clerical
+60-79,Higher Education,Seperated,Person,<=50K,?
+60-79,PreSchool,Married-spouse,Person,<=50K,Transport-moving
+60-79,PreSchool,Married-spouse,Person,<=50K,?
+60-79,PreSchool,Married-spouse,Person,<=50K,Prof-specialty
+60-79,PreSchool,Married-spouse,Person,<=50K,Machine-op-inspct
+60-79,PreSchool,Married-spouse,Person,<=50K,Other-service
+60-79,PreSchool,Married-spouse,Person,<=50K,Other-service
+60-79,PreSchool,Married-spouse,Person,<=50K,Other-service
+60-79,PreSchool,Married-spouse,Person,<=50K,Other-service
+60-79,PreSchool,Married-spouse,Person,<=50K,Machine-op-inspct
+60-79,PreSchool,Married-spouse,Person,<=50K,Craft-repair
+60-79,PreSchool,Never-Married,Person,<=50K,Priv-house-serv
+60-79,PreSchool,Never-Married,Person,<=50K,Farming-fishing
+60-79,PreSchool,Never-Married,Person,<=50K,Machine-op-inspct
+60-79,PreSchool,Never-Married,Person,<=50K,Machine-op-inspct
+60-79,PreSchool,Never-Married,Person,<=50K,Other-service
+60-79,PreSchool,Never-Married,Person,<=50K,Transport-moving
+60-79,PreSchool,Never-Married,Person,<=50K,?
+60-79,PreSchool,Never-Married,Person,<=50K,Priv-house-serv
+60-79,PreSchool,Never-Married,Person,<=50K,Priv-house-serv
+60-79,PreSchool,Never-Married,Person,<=50K,Handlers-cleaners
+60-79,PreSchool,Seperated,Person,<=50K,Sales
+60-79,PreSchool,Seperated,Person,<=50K,?
+60-79,PreSchool,Seperated,Person,<=50K,Tech-support
+60-79,PreSchool,Seperated,Person,<=50K,?
+60-79,PreSchool,Seperated,Person,<=50K,?
+60-79,PreSchool,Seperated,Person,<=50K,Other-service
+60-79,PreSchool,Seperated,Person,<=50K,Other-service
+60-79,PreSchool,Seperated,Person,<=50K,Tech-support
+60-79,PreSchool,Seperated,Person,<=50K,Handlers-cleaners
+60-79,PreSchool,Seperated,Person,<=50K,Exec-managerial
+>=80,College,Married-spouse,Person,<=50K,Sales
+>=80,College,Married-spouse,Person,<=50K,Sales
+>=80,College,Married-spouse,Person,<=50K,Exec-managerial
+>=80,College,Married-spouse,Person,<=50K,Exec-managerial
+>=80,College,Married-spouse,Person,<=50K,Exec-managerial
+>=80,College,Married-spouse,Person,<=50K,Prof-specialty
+>=80,College,Married-spouse,Person,<=50K,Farming-fishing
+>=80,College,Married-spouse,Person,<=50K,Sales
+>=80,College,Married-spouse,Person,<=50K,Prof-specialty
+>=80,College,Married-spouse,Person,<=50K,Farming-fishing
+>=80,College,Never-Married,Person,<=50K,Exec-managerial
+>=80,College,Never-Married,Person,<=50K,Other-service
+>=80,College,Never-Married,Person,<=50K,Exec-managerial
+>=80,College,Never-Married,Person,<=50K,?
+>=80,College,Never-Married,Person,<=50K,Prof-specialty
+>=80,College,Never-Married,Person,<=50K,Other-service
+>=80,College,Never-Married,Person,<=50K,Priv-house-serv
+>=80,College,Never-Married,Person,<=50K,Prof-specialty
+>=80,College,Never-Married,Person,<=50K,Other-service
+>=80,College,Never-Married,Person,<=50K,Exec-managerial
+>=80,College,Seperated,Person,<=50K,Adm-clerical
+>=80,College,Seperated,Person,<=50K,Sales
+>=80,College,Seperated,Person,<=50K,Adm-clerical
+>=80,College,Seperated,Person,<=50K,Prof-specialty
+>=80,College,Seperated,Person,<=50K,Adm-clerical
+>=80,College,Seperated,Person,<=50K,Adm-clerical
+>=80,College,Seperated,Person,<=50K,Prof-specialty
+>=80,College,Seperated,Person,<=50K,Prof-specialty
+>=80,College,Seperated,Person,<=50K,?
+>=80,College,Seperated,Person,<=50K,Sales
+>=80,Higher Education,Married-spouse,Person,<=50K,Transport-moving
+>=80,Higher Education,Married-spouse,Person,<=50K,Exec-managerial
+>=80,Higher Education,Married-spouse,Person,<=50K,Craft-repair
+>=80,Higher Education,Married-spouse,Person,<=50K,Adm-clerical
+>=80,Higher Education,Married-spouse,Person,<=50K,Other-service
+>=80,Higher Education,Married-spouse,Person,<=50K,?
+>=80,Higher Education,Married-spouse,Person,<=50K,Machine-op-inspct
+>=80,Higher Education,Married-spouse,Person,<=50K,Farming-fishing
+>=80,Higher Education,Married-spouse,Person,<=50K,?
+>=80,Higher Education,Married-spouse,Person,<=50K,Farming-fishing
+>=80,Higher Education,Seperated,Person,<=50K,Exec-managerial
+>=80,Higher Education,Seperated,Person,<=50K,Prof-specialty
+>=80,Higher Education,Seperated,Person,<=50K,Other-service
+>=80,Higher Education,Seperated,Person,<=50K,Exec-managerial
+>=80,Higher Education,Seperated,Person,<=50K,Other-service
+>=80,Higher Education,Seperated,Person,<=50K,Other-service
+>=80,Higher Education,Seperated,Person,<=50K,
+>=80,Higher Education,Seperated,Person,<=50K,?
+>=80,Higher Education,Seperated,Person,<=50K,Transport-moving
+>=80,Higher Education,Seperated,Person,<=50K,Sales
+>=80,PreSchool,Married-spouse,Person,<=50K,Exec-managerial
+>=80,PreSchool,Married-spouse,Person,<=50K,Farming-fishing
+>=80,PreSchool,Married-spouse,Person,<=50K,?
+>=80,PreSchool,Married-spouse,Person,<=50K,Other-service
+>=80,PreSchool,Married-spouse,Person,<=50K,Prof-specialty
+>=80,PreSchool,Married-spouse,Person,<=50K,Craft-repair
+>=80,PreSchool,Married-spouse,Person,<=50K,Farming-fishing
+>=80,PreSchool,Married-spouse,Person,<=50K,Farming-fishing
+>=80,PreSchool,Married-spouse,Person,<=50K,Exec-managerial
+>=80,PreSchool,Married-spouse,Person,<=50K,Farming-fishing
+>=80,PreSchool,Seperated,Person,<=50K,?
+>=80,PreSchool,Seperated,Person,<=50K,Farming-fishing
+>=80,PreSchool,Seperated,Person,<=50K,?
+>=80,PreSchool,Seperated,Person,<=50K,Sales
+>=80,PreSchool,Seperated,Person,<=50K,Other-service
+>=80,PreSchool,Seperated,Person,<=50K,Exec-managerial
+>=80,PreSchool,Seperated,Person,<=50K,
+>=80,PreSchool,Seperated,Person,<=50K,Sales
+>=80,PreSchool,Seperated,Person,<=50K,Farming-fishing
+>=80,PreSchool,Seperated,Person,<=50K,Machine-op-inspct

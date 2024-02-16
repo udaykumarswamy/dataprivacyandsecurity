@@ -11,8 +11,11 @@ logger = logging.getLogger('dataflylogger')
 def fetchInputData():
     '''
     This is the method to fetch the input data
-    using ucimlrepo library
+    using ucimlrepo library and does the manipulation 
+    on the noisy data and create the different sub-groups
+    on the data based upon the criteria of >50K and <=50K
     '''
+   
     # fetch dataset 
     logger.info('fetching the data started...')
     adultData = fetch_ucirepo(id=2) 
@@ -20,7 +23,7 @@ def fetchInputData():
     # data (as pandas dataframes) 
     rawDataFeatures = adultData.data.features 
     rawDataTarget = adultData.data.targets 
-
+   
 
     '''
     now lets manipulate the data and save the intented data
@@ -45,18 +48,22 @@ def fetchInputData():
     as the target data has some extra noisy values we are clearing 
     it in below
     '''
-    rawDataTarget['income']=rawDataTarget.loc(rawDataTarget['income'].replace('<=50K.','<=50K').replace('>50K.','>50K'))
-    rawDataTarget['income']=pd.DataFrame(rawDataTarget)
+    rawDataTarget['income']=pd.DataFrame(rawDataTarget['income'].replace('<=50K.','<=50K').replace('>50K.','>50K'))
+
     #now lets remove unwanted columns and lets keep the QI's and sensitive
-    adultData=rawDataFeatures.merge(rawDataTarget, how='inner',left_index=True, right_index=True)
+    adultData = rawDataFeatures.merge(rawDataTarget, how='inner',left_index=True, right_index=True)
     adultData = adultData[['age','education','marital-status','race','income','occupation']]
+    adultData.to_csv('dataset/orginal.csv')
     logger.info('manipulation completed...')
     logger.info('file creation for less than 50k...')
+    
     #less than 50k
-    lessThanFifty = adultData.loc[adultData['income']] == '<=50K'
+    lessThanFifty = adultData[adultData['income'] == '<=50K']
     lessThanFifty.to_csv('dataset/lessThanFifty.csv')
     logger.info('file creation for greater than 50k...')
+    
     #greater than 50k
-    greaterThanFifty = adultData.loc[adultData['income']]== '>50K'
+    greaterThanFifty = adultData[adultData['income'] == '>50K']
     greaterThanFifty.to_csv('dataset/greaterThanFifty.csv')
     logger.info('Input file creation has been completed...')
+

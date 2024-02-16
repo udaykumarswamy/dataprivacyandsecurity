@@ -11,62 +11,54 @@ logger = logging.getLogger('dataflylogger')
 
 manageHierarchy = {'age': 3, 'education': 3, 'martial-status': 2, 'race': 2}
 
-
-def genearliseData(education,maritalstatus,age,race,merged_input_file,outputfile_name):
-    '''
-    generalises the data based on the level 
-    provided in the main run, creates seperate 
-    generalised files and combines all the sepearte 
-    genralise file into one file, this will be used to
-    check the anonymity
-    '''
+#greaterThanFifty
+#lessThanFifty
+input_file = 'dataset/greaterThanFifty.csv'
+output_file ='anonymised/completed_anonymised.csv'
+def anonymiseData():
     logger.info('annonymisation of the education started...')
-    anonymize_education_csv(merged_input_file,'anonymised/new_education.csv',education) 
+    anonymize_education_csv(input_file,'anonymised/new_education.csv',1) #prev-1
+    #anonymize_education_csv(input_file,output_file,1)
     logger.info('annonymisation of the education completed...')
     logger.info('annonymisation of the marital-status started...')
-    anonymize_maritalstatus_csv(merged_input_file,'anonymised/new_marital-status.csv',maritalstatus) 
+    anonymize_maritalstatus_csv(input_file,'anonymised/new_marital-status.csv',1) 
+    #anonymize_maritalstatus_csv(input_file,output_file,2)
     logger.info('annonymisation of the marital-status completed...')
     logger.info('annonymisation of the age started...')
-    anonymize_age_csv(merged_input_file,'anonymised/new_age.csv',age) 
+    anonymize_age_csv(input_file,'anonymised/new_age.csv',1) 
+    #anonymize_age_csv(input_file,output_file,2)
     logger.info('annonymisation of the age completed...')
     logger.info('annonymisation of the race started...')
-    anonymize_race_csv(merged_input_file,'anonymised/new_race.csv',race) 
+    anonymize_race_csv(input_file,'anonymised/new_race.csv',2) 
+    #anonymize_race_csv(input_file,output_file,1)
     logger.info('annonymisation of the race completed...')
-    
     #now will combine all the files to one
-    combineAll(merged_input_file,outputfile_name)
+    combineAll()
 
 
 
-def combineAll(merged_input_file,outputfile_name):
-    '''
-    merges all the seperate generalised
-    files, this is not needed however 
-    i have added this for my clear understanding.
-    creates combined generalised input file.
-    '''
+def combineAll():
     logger.info('combining all the data started...')
     ageDataFrame = pd.read_csv('anonymised/new_age.csv')
     raceDataFrame = pd.read_csv('anonymised/new_race.csv')
     maritalStatusDataFrame = pd.read_csv('anonymised/new_marital-status.csv')
     educationDataFrame = pd.read_csv('anonymised/new_education.csv')
-    main_data = pd.read_csv(merged_input_file)
+    main_data = pd.read_csv(input_file)
     result_df = pd.concat([ageDataFrame['age'],educationDataFrame['education'] , maritalStatusDataFrame['marital-status'],raceDataFrame['race'],main_data['income'],main_data['occupation']], axis=1)    
-    result_df.to_csv(outputfile_name, index=False) 
-    logger.info('combining all the data completed...')
+    if( 'greaterThanFifty' in input_file):
+        result_df.to_csv('anonymised/final_data_for_greaterfifty.csv', index=False)
+    else:
+        result_df.to_csv('anonymised/final_data_for_lessfifty.csv', index=False)
 
-
-def mergeInputFileDataFile(outputFilePath):
-    '''
-    this method will merge the seperate grouped <=50k and >50k
-    files into one grouped file
-    '''
-    gFifty = 'dataset/greaterThanFifty.csv'
-    lFifty = 'dataset/lessThanFifty.csv'
+def mergeFinalDataFile():
+    gFifty = 'anonymised/final_data_for_greaterfifty.csv'
+    lFifty = 'anonymised/final_data_for_lessfifty.csv'
     df1 = pd.read_csv(gFifty)
     df2 = pd.read_csv(lFifty)
     appended_df = pd.concat([df1, df2], ignore_index=True)
-    appended_df.to_csv(outputFilePath, index=False)
+    appended_df.to_csv('anonymised/complete_anonymised.csv', index=False)
+
+
          
         
 def anonymize_race_csv(input_file, output_file, level):
@@ -112,10 +104,6 @@ def anonymize_age_csv(input_file, output_file, level):
 
 
 def anonymize_education_csv(input_file, output_file, level):
-    '''
-    this function will anonymise the education columns
-    according to the level provide and creates the .csv file
-    '''
     # Read the input file and store its contents
     with open(input_file, 'r', newline='') as infile:
         reader = csv.DictReader(infile)
@@ -136,10 +124,6 @@ def anonymize_education_csv(input_file, output_file, level):
 
 
 def anonymize_maritalstatus_csv(input_file, output_file, level):
-    '''
-    this function will anonymise the marital-status columns
-    according to the level provide and creates the .csv file
-    '''
     # Read the input file and store its contents
     with open(input_file, 'r', newline='') as infile:
         reader = csv.DictReader(infile)
@@ -159,41 +143,32 @@ def anonymize_maritalstatus_csv(input_file, output_file, level):
             writer.writerow(row)
     
 def raceAnonymisation(key,value,level):
-    '''
-    this function will anonymise the race columns
-    according to the level provide and creates the .csv file
-    '''
+     #race hirarchy
     #level-0
     if(key=='race' and level==0):
         return value
     #level-1
-    elif(key=='race' and (level==1 and value in ['White' ,'Black','Other'])):
-        return 'General'
-    elif(key=='race' and (level==1 and value in ['Asian-Pac-Islander', 'Amer-Indian-Eskimo'])):
-        return 'American'    
-    #level-2
-    elif(key=='race' and (level==2 and value in ['White' ,'Black', 'Asian-Pac-Islander', 'Amer-Indian-Eskimo' ,'Other'])):
+    elif(key=='race' and (level==1 and value in ['White' ,'Black', 'Asian-Pac-Islander', 'Amer-Indian-Eskimo' ,'Other'])):
         return 'Person'
-    #level-3
-    elif(key=='race' and (level==3 or level>2)):
+    #level-2
+    elif(key=='race' and (level==2 or level>2)):
         return '*'
    
 
 def ageAnonymisation(key, value, level):
-    '''
-    This method has the level's hirarchy of the age
-    '''
-    #Check if value is valid and convert it to an integer
+    #age hirarchy
+    #level-0
+    #value = int(value)
+   # Check if value is valid and convert it to an integer
     if value == None:
         return '*'
+     # Convert value to integer
     
-    #Convert value to integer
     value = int(value)
     
     #level-0
     if(key=='age' and level==0):
         return value
-    
     #level-1
     elif(key=='age' and (value <=19 and level==1)):
         return '0-19'
@@ -205,34 +180,25 @@ def ageAnonymisation(key, value, level):
         return '60-79'
     elif(key=='age' and (value >=80 and  level==1)):
         return '>=80'
-    
     #level-2
     elif(key=='age' and (value <=19 and level==2)):
         return '<60'
     elif(key=='age' and (value > 19 and  value < 60 and level==2)):
         return '<60'
-    elif(key=='age' and (value >= 60 and value <=79 and level==2)):
+    elif(key=='age' and (value > 60 and value<=79 and level==2)):
         return '>=60'
     elif(key=='age' and (value >= 80 and level==2)):
         return '>=80'
-    
     #level-3
-    elif(key=='age' and (value <=80 and level==3)):
-        return '<=80'
-    elif(key=='age' and (value >=80 and level==3)):
-        return '>=80'
-    
-    #level-4
-    elif(key=='age' and level==4):
+    elif(key=='age' and level==3):
         return '*'
 
 
 
 
 def educationAnonymisation(key,value,level):
-    '''
-    This method has the level's hirarchy of the education
-    '''
+    # Hierarchy of Education
+    # Hirarchy of education level == 0
  
     if(value == None):
         return '*'
@@ -247,23 +213,16 @@ def educationAnonymisation(key,value,level):
         return 'Assoc'
     elif(key=='education' and (level==1 and value in ['HS-grad','Masters','Doctorate'])):
         return 'Higher Education'
-    
-    
     #level-2
-    elif(key=='education' and (level==2 and value in['Preschool','1st-4th','5th-6th','7th-8th','9th','10th','11th','12th','Bachelors','Some-college','Prof-school'])):
-        return 'College'
-    elif(key=='education' and (level==2 and value in['Assoc-voc','Assoc-acdm','HS-grad','Masters','Doctorate'])):
-        return 'Higher Education'
+    elif(key=='education' and level==2):
+        return 'education'
     
-
     #level-3
     elif(key=='education' and (level==3 or level>3)):
         return '*'
      
 def maritalStatusAnonymisation(key,value,level):
-    '''
-    This method has the level's hirarchy of the marital-status
-    '''
+    #Hierarchy of marital-status
     #leve-0
     if(key=='marital-status' and level==0):
         return value
@@ -274,19 +233,13 @@ def maritalStatusAnonymisation(key,value,level):
         return 'Never-Married'
     elif(key=='marital-status' and level==1 and value in ['Divorced','Widowed','Separated']):
         return 'Seperated'
-    
     #level-2
-    elif(key=='marital-status' and level==2 and value in ['Married-civ-spouse','Married-AF-spouse','Married-spouse-absent','Separated']):
-        return 'Married'
-    elif(key=='marital-status'and level==2 and value in ['Never-married','Divorced','Widowed']):
-        return 'Never Married'
-    
+    elif(key=='marital-status' and level==2 and value in ['Married-spouse','Never-Married','Seperated']):
+        return 'Marital-status'
     #level-3
     elif(key=='marital-status' and (level==3 or level>3)):
         return '*'
     
     
-#genearliseData()
-#genearliseData(education,maritalstatus,age,race)
-#genearliseData(2,2,2,2) ---> for 2-d --> minumum loss 12 --> trade off with utility
-#genearliseData(1,2,2,2)
+#anonymiseData()
+mergeFinalDataFile()
