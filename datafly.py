@@ -126,7 +126,8 @@ if __name__ == "__main__":
                 manageHierarchy=  {'age': [2,4], 'education': [1,3], 'marital-status': [2,3], 'race': [2,3]}
                 logger.info('generalize the data according to satisfaction..started')
                 output_file_c='final/generalised_for_c_0_5.csv'
-                genearliseData(1,2,2,2,merged_output_file,output_file_c)
+                #genearliseData(education,maritalstatus,age,race)
+                genearliseData(2,3,3,3,merged_output_file,output_file_c)
                 logger.info('generalize the data according to satisfaction..completed')
                 logger.info('annonymisation for k-5 is started...')
                 dataFrame = pd.read_csv(output_file_c)
@@ -154,7 +155,8 @@ if __name__ == "__main__":
                 logger.info('generalize the data according to satisfaction..started')
                 manageHierarchy=  {'age': [2,4], 'education': [1,3], 'marital-status': [2,3], 'race': [2,3]}
                 output_file_c='final/generalised_for_c_1.csv'
-                genearliseData(1,2,2,2,merged_output_file,output_file_c)
+                #satisfies
+                genearliseData(2,2,3,2,merged_output_file,output_file_c)
                 logger.info('generalize the data according to satisfaction..completed')
                 logger.info('annonymisation for k-5 is started...')
                 dataFrame = pd.read_csv(output_file_c)
@@ -182,7 +184,9 @@ if __name__ == "__main__":
                 logger.info('generalize the data according to satisfaction..started')
                 manageHierarchy=  {'age': [2,4], 'education': [1,3], 'marital-status': [2,3], 'race': [2,3]}
                 output_file_c='final/generalised_for_c_2.csv'
-                genearliseData(1,2,2,2,merged_output_file,output_file_c)
+                #genearliseData(education,maritalstatus,age,race)
+                #it is satisfied
+                genearliseData(2,2,2,2,merged_output_file,output_file_c)
                 logger.info('generalize the data according to satisfaction..completed')
                 logger.info('annonymisation for k-5 is started...')
                 dataFrame = pd.read_csv(output_file_c)
@@ -197,13 +201,12 @@ if __name__ == "__main__":
                 recursive_output_data = 'final/reccursive_data_for_c_2.csv'
                 recursive_output.to_csv(recursive_output_data,index=False)
                 logger.info('recursive l-diversity on data completed...')
-                logger.info('calculating the distortion and precision for c-1 started...')      
+                logger.info('calculating the distortion and precision for c-2 completed...')      
                 anonymized_data = pd.read_csv(recursive_output_data)
                 original_generalised = pd.read_csv(output_file_c)          
                 distortion,precision=Distortion_And_Precision_Calculation(quasibasedIdentifiers,manageHierarchy,anonymized_data,original_generalised)
                 logger.info(np.char.center('2-D-c k = 5,l = 3, c = 2 distortion and precision',80,'*'))
                 logger.info('Distortion: %s',str(distortion))
                 logger.info('Precision: %s',str(precision))
-                logger.info('calculating the distortion and precision for c-2 completed...')    
     except Exception as e:
         print('Error while running the data-fly',e)

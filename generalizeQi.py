@@ -276,9 +276,9 @@ def maritalStatusAnonymisation(key,value,level):
         return 'Seperated'
     
     #level-2
-    elif(key=='marital-status' and level==2 and value in ['Married-civ-spouse','Married-AF-spouse','Married-spouse-absent','Separated']):
+    elif(key=='marital-status' and level==2 and value in ['Married-civ-spouse','Married-AF-spouse','Married-spouse-absent','Separated','Divorced','Widowed']):
         return 'Married'
-    elif(key=='marital-status'and level==2 and value in ['Never-married','Divorced','Widowed']):
+    elif(key=='marital-status'and level==2 and value in ['Never-married']):
         return 'Never Married'
     
     #level-3
